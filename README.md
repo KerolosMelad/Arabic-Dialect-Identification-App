@@ -33,7 +33,7 @@ in 1 approach the DL could achieve about 38% categorical accuracy, whereas the N
 
 However 2nd approach performs better with an accuracy of about 50. (For more details check the training notebook)
 
-# Stage 4
+# Stage 4 (Deployment)
 
 Deploying the model using Flask as a back end. HTML and CSS as front end.
 
