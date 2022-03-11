@@ -37,7 +37,7 @@ However 2nd approach performs better with an accuracy about 50% . (For more deta
 
 # Stage 4 (Deployment)
 
-Deploying the model using Flask as a back end. HTML and CSS as front end.
+Deploying the RNN  model using Flask as a back end. HTML and CSS as front end.
 
 
 
