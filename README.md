@@ -21,7 +21,7 @@ Abstractly, the Project is divided into **4 stages**.
   
  in this stage, different data science techniques are used to make  **Analysis, Visualization, Encoding, Feature extraction** on the dataset.
  
- # Stage 3 (Model Training)
+ # Stage 3 (Model Training & Accuracy Measurement)
  
  **4 different models** are trained on the preprocessed dataset in **2 different approaches**
  
