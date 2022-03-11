@@ -1,4 +1,4 @@
-<H1>Arabic-Dialect-Identification</H1>
+<H1 style=”text-align: center;” >Arabic-Dialect-Identification</H1>
 
 Araibic Dialect Identification is a NLP Problem to classify different 18 arabic dialect, 'IQ', 'LY', 'QA', 'PL', 'SY', 'TN', 'JO', 'MA', 'SA', 'YE', 'DZ',
        'EG', 'LB', 'KW', 'OM', 'SD', 'AE' and 'BH'.
