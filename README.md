@@ -37,7 +37,7 @@ However 2nd approach performs better with accuracy about 50. (For more details c
 
 Deploying the model using Flask as a back end. HTML and CSS as front end.
 
- ![dialect identification app](dialect identification  app.png)
+![alt text](dialect identification  app.png)
 
 
 
