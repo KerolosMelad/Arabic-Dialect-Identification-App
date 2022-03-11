@@ -45,7 +45,7 @@ Deploying the model using Flask as a back end. HTML and CSS as front end.
 </p>
 
 
-Technologies are used, Numpy, Pandas, Seaborn, NLTK, SKLearn, Tensorflow
+**Technologies** used are: Numpy, Pandas, Seaborn, NLTK, SKLearn and TensorFlow.
 
 
 
