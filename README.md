@@ -31,7 +31,7 @@ Recurrent Neural Network is the one used in this approach
 
 in 1 approach the DL could achieve about 38% categorical accuracy, whereas the Naive Bayes and logistic regressing could achieve about 37%
 
-However 2nd approach performs better with an accuracy of about 50. (For more details check the training notebook)
+However 2nd approach performs better with an accuracy about 50& . (For more details check the training notebook)
 
 # Stage 4 (Deployment)
 
