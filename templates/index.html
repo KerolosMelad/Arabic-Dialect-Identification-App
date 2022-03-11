@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Dialect Identification</title>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+            * {
+                font-family: 'Poppins', sans-serif;
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                scroll-behavior: smooth;
+            }
+
+            nav {
+                background-color: rgb(0, 140, 255);
+                width: 100%;
+                position: relative;
+                display: block;
+                z-index: 999;
+                float: left;
+                text-align: center;
+                padding: 10px;
+                font-size: 1.6em;
+                color: white;
+            }
+
+            .clear {
+                clear: both;
+            }
+
+            .parent {
+                align-items: center;
+                position: relative;
+            }
+
+
+            .container {
+                margin: 50px auto;
+                width: 343px;
+                margin-bottom: -28px;
+                margin-top: 26px;
+            }
+
+
+
+            #sentence {
+                width: 350px;
+                margin: 0px auto;
+                padding: 9px;
+                background-color: #f1f1f1;
+                border: 0;
+                border-bottom: 2px solid black;
+            }
+            button {
+                margin: 5px;
+                padding: 8px 7px;
+                margin-left: 11px;
+                color: white;
+                background-color: rgb(0, 140, 255);
+                text-decoration: none;
+                font-weight: 600;
+                letter-spacing: 1px;
+                line-height: 26px;
+                border-radius: 5px;
+                border-color: transparent;
+                transition: 0.4s;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: #0a49f6;
+            }
+
+            .percentage {
+                width: 100px;
+                display: inline-block;
+                align-items: center;
+                margin: 0px auto;
+                margin-left: 50%;
+                margin-bottom: 12px;
+                position: relative;
+            }
+
+            label {
+                font-size: 10px;
+                font-weight: 600;
+                text-align: -20px;
+            }
+
+            span {
+                position: absolute;
+                top: 55px;
+                left: -83px;
+                font-size: 16px;
+            }
+
+            .file {
+                padding: 0;
+                margin: -52px;
+                height: 12px;
+                width: 200px;
+            }
+
+            form {
+                display: block;
+                width: 500px;
+            }
+
+            #answer {
+                display: inline-block;
+                margin-left: 51%;
+                margin-top: 5px;
+                font-size: 18px;
+            }
+
+        </style>
+    </head>
+    <body>
+
+        <nav>Dialect Identification</nav>
+        <p class="clear"></p>
+
+        <div class="parent">
+            <div class="container">
+              <form action="{{ url_for('predict')}}"method="post">
+                    <input type="text" name = "sentence" id="sentence" placeholder="Enter a sentence">
+                    <button>Compute</button>
+                </form>
+            </div>
+            <br>
+            <div></div>
+            <p class="clear"></p>
+
+            <div >
+                <div class="percentage">
+                    <span id="c1">{{c1}}</span>
+                    <progress class="file" id="p1" value={{v1}} max="100" > </progress>
+                    <br>
+                </div>
+                <div class="percentage">
+                    <span id="c2">{{c2}}</span>
+                    <progress class="file"  id="p2" value={{v2}} max="100"> </progress>
+                    <br>
+                </div>
+                <div class="percentage">
+                    <span id="c3">{{c3}}</span>
+                    <progress class="file"  id="p3" value={{v3}} max="100"> </progress>
+                    <br>
+                </div>
+                <div class="percentage">
+                    <span id="c4">{{c4}}</span>
+                    <progress class="file"  id="p4" value={{v4}} max="100"> </progress>
+                    <br>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <p id="answer">{{answer}}</p>
+
+    </body>
+</html>
