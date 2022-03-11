@@ -39,6 +39,9 @@ Deploying the model using Flask as a back end. HTML and CSS as front end.
 
 ![alt text](dialect identification  app.png)
 
+![Alt text](dialect identification  app.png "dialect identification  app")
+
+
 
 
 
