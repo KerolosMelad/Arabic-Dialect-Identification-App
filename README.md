@@ -25,7 +25,7 @@ The **1st approach** is to train on the **Features Extracted** on pre-processing
 
 the **2nd approach** is to train on encoded texts itself, in other words, let the model extract the features himself.
 
-Recurrent Neural Network is the one used in this approach
+**Recurrent Neural Network** is the one used in this approach
 
 **Accuracy** is measured based on Categorical accuracy and F1-Score
 
