@@ -44,6 +44,10 @@ Deploying the RNN  model using Flask as a back end. HTML and CSS as front end.
 **Technologies** used are: Numpy, Pandas, Seaborn, NLTK, SKLearn and TensorFlow.
 
 
+for more details, Kindly check my blog on medium <a href="https://medium.com/@kmelad43/arabic-dialect-identification-774de9315140">Arabic Dialect Identification</a> 
+
+
+
 
 
  
