@@ -37,11 +37,12 @@ However 2nd approach performs better with accuracy about 50. (For more details c
 
 Deploying the model using Flask as a back end. HTML and CSS as front end.
 
-![Alt text](arabic_dialect_App.jpg "dialect identification  app")
 
 
 
-
+<p align="center">
+  <img src=arabic_dialect_App.jpg" />
+</p>
 
 
 
