@@ -1,7 +1,11 @@
 # Araibic Dialect Identification App
 
 <p align="center">
-  <img src="arabic_dialect_App.jpg" />
+  <img src="snapshot1.png" />
+</p>
+
+<p align="center">
+  <img src="snapshot2.png" />
 </p>
 
 
