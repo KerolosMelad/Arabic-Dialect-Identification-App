@@ -1,13 +1,8 @@
 # Araibic Dialect Identification App
 
 <p align="center">
-  <img src="snapshot1.png" />
+  <img src="arabic_dialect_App.jpg" />
 </p>
-
-<p align="center">
-  <img src="snapshot2.png" />
-</p>
-
 
 
 Araibic Dialect Identification is a NLP Problem to classify different 18 arabic dialect, 'IQ', 'LY', 'QA', 'PL', 'SY', 'TN', 'JO', 'MA', 'SA', 'YE', 'DZ',
