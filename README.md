@@ -1,4 +1,4 @@
-# Araibic Dialect Identification App
+# Arabic Dialect Identification App
 
 <p align="center">
   <img src="arabic_dialect_App.jpg" />
